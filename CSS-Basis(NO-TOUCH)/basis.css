@@ -1,0 +1,63 @@
+.main{
+    height: 50px;
+    width: 100%;
+}
+header,footer{
+    background-image: url('..');
+}
+main>div{
+    width: 90%;
+    height: 45em;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 5em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-self: center;
+}
+.left, .right{
+    margin-top:1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 42em;
+    border-radius: 5em 0em 0em 5em;
+    background-color: rgb(255, 255, 255);
+}
+.right{
+    border-radius: 0em 5em 5em 0em;
+}
+
+.right h1{
+    font-size: 4em;
+}
+.right span{
+    font-size:3em;
+    padding:1em;
+    font-family: times new roman;
+}
+.image{
+    margin-top:1em;
+    height: 80%;
+    width: 95%;
+    border:1px solid white;
+    border-radius: 5em;
+    background-size: cover;
+    background-color: rgba(215, 252, 215, 0.471);
+    margin: 2% 5%;
+}
+.caption{
+    margin-top: 1em;
+    font-size:2em;
+    font-weight: bold;
+}
+.logo{   
+    padding: 0.5em 2em;
+    width: 9em;
+    height: 5em;
+    opacity: 1;
+    align-self: start;
+    background-color: rgb(253, 253, 253);
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,38 @@
+/* Font chữ*/
+*{
+    font-family: ;
+}
+/* Màu của KHUNG header */
+header{
+    background-color: rgb(250, 7, 7);
+}
+
+/* Thêm logo góc trái*/
+.logo{
+    background-image: url('/link/');
+}
+
+/* Màu của viền 2 bên */
+body{
+    background-color: rgb(69, 69, 236);
+}
+/* Màu Khung Thông Tin */
+.left,.right{
+    background-color: rgb(210, 210, 161);
+}
+/* Thêm Ảnh Profile*/
+.image{
+    background-color: aliceblue;
+    background-image: url('/link/ ');
+}
+/* Màu của KHUNG footer */
+footer{
+    background-color: rgb(19, 246, 19);
+}
+
+  /* Cách lấy link:
+  Cách 1: Lấy hình ảnh có sẵn trên mạng
+        Tìm kiếm hình ảnh trên mạng -> chuột phải -> chọn sao chép địa chỉ hình ảnh-> paste địa chỉ vào /link/
+  Cách 2: Lấy hình ảnh tự chụp
+        đưa file ảnh vào folder MiniGame -> /link/ -> /địa chỉ ảnh
+    */
